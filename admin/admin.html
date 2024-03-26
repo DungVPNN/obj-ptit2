@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="display: flex">
+    <div id="formAdd"></div>
+    <div id="formEdit"></div>
+    <header class="left">
+      <div class="logo">
+        <a
+          href="./index.html"
+          style="color: white; text-align: center; text-decoration: none"
+        >
+          <i class="fa-solid fa-shield-halved"></i>
+          <span style="font-size: 30px">PC LUNX</span>
+        </a>
+      </div>
+      <div id="adminProfile"></div>
+      <div class="manager" onclick="manager1()">Quản Lí Hàng Hóa</div>
+      <div class="manager" onclick="manager2()">Quản Lí Tài Khoản</div>
+      <div class="manager" onclick="manager3()">Quản Lí Bill</div>
+    </header>
+    <nav class="right">
+      <a class="returnHome" href="../utils/index.html">Trang chủ</a>
+      <div class="manager-item"></div>
+      <div class="manager-item"></div>
+      <div class="manager-item"></div>
+    </nav>
+    <script src="../js/admin.js"></script>
+  </body>
+</html>

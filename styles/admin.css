@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.logo{
+    padding-left: 30px;
+    color: white;
+}
+#adminProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background: linear-gradient(-180deg, #000000, rgb(125, 122, 121));
+    width: 300px;
+    height: 400vh;
+}
+.manager{
+    padding: 20px 30px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    font-weight: 700;
+}
+.manager:hover{
+    background-color: gray;
+}
+.right{
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.returnHome{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.returnHome:hover{
+    color: white;
+}
+.manager-item{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Btn{
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f53d2d;
+    color: white;
+}
+.Btn:hover{
+    background-color: #ff776a;
+}
+.addItem{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+.editItem{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.fa-solid {
+    font-size: 40px;
+    margin-top: 10px;
+}
